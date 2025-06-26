@@ -16,6 +16,8 @@
            dirb http://testphp.vulnweb.com/   #Run with default wordlist
            dirb http://example.com /usr/share/wordlists/dirb/big.txt  #Run with custom wordlist 'big.txt'
 
+           dirsearch -u http://testphp.vulnweb.com
+
 4) Check the caches of major search engines for publicly accessible sites.
 
 5) Check for differences in content based on user agent (e.g. mobile sites, accessing as a search engine crawler).

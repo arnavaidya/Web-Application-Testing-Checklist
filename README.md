@@ -4,6 +4,8 @@
 
 ### 1] Information Gathering:
 
+#### Rendered Site Review
+
 1) Manually explore the site.
    - Interact with the site as if you are a common user, exploring all possible paths.
      

@@ -13,6 +13,9 @@
 3) Check the webserver metafiles for information leakage files that expose content, such as robots.txt, sitemap.xml, and .DS_Store.
    - Use dirbuster and/or dirsearch for enumeration.
 
+     dirb http://testphp.vulnweb.com/   #Run with default wordlist
+     dirb http://example.com /usr/share/wordlists/dirb/big.txt  #Run with custom wordlist 'big.txt'
+
 4) Check the caches of major search engines for publicly accessible sites.
 
 5) Check for differences in content based on user agent (e.g. mobile sites, accessing as a search engine crawler).

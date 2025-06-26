@@ -15,12 +15,12 @@
 
       - dirb
         
-           dirb http://testphp.vulnweb.com/   #Run with default wordlist
-           dirb http://example.com /usr/share/wordlists/dirb/big.txt  #Run with custom wordlist 'big.txt'
+                 dirb http://testphp.vulnweb.com/   #Run with default wordlist
+                 dirb http://example.com /usr/share/wordlists/dirb/big.txt  #Run with custom wordlist 'big.txt'
 
       - dirsearch
         
-           dirsearch -u http://testphp.vulnweb.com
+                 dirsearch -u http://testphp.vulnweb.com
 
 4) Check the caches of major search engines for publicly accessible sites.
 

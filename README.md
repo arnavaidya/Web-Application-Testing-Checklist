@@ -4,11 +4,14 @@
 
 ### 1] Information Gathering:
 
-1) Manually explore the site
-   - Interact with the site as if you are a common user, exploring all possible paths. 
-2)Spider/crawl for missed or hidden content
-   - 
-3)Check the webserver metafiles for information leakage files that expose content, such as robots.txt, sitemap.xml, and .DS_Store
+1) Manually explore the site.
+   - Interact with the site as if you are a common user, exploring all possible paths.
+     
+2)Spider/crawl for missed or hidden content.
+   - Use Burp Suite Spider or OWASP ZAP Spider.
+     
+3)Check the webserver metafiles for information leakage files that expose content, such as robots.txt, sitemap.xml, and .DS_Store.
+   - Use dirbuster and/or dirsearch for enumeration.
 
 4)Check the caches of major search engines for publicly accessible sites
 

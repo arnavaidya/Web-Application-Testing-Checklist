@@ -13,8 +13,8 @@
 3) Check the webserver metafiles for information leakage files that expose content, such as robots.txt, sitemap.xml, and .DS_Store.
    - Use dirbuster and/or dirsearch for enumeration.
 
-4)Check the caches of major search engines for publicly accessible sites
+4) Check the caches of major search engines for publicly accessible sites
 
-5)Check for differences in content based on user agent (e.g. mobile sites, accessing as a search engine crawler)
+5) Check for differences in content based on user agent (e.g. mobile sites, accessing as a search engine crawler)
 
-6)Check webpage comments and metadata for information leakage
+6) Check webpage comments and metadata for information leakage

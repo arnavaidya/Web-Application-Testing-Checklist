@@ -25,10 +25,25 @@
                  dirsearch -u http://testphp.vulnweb.com
 
 4) Check the caches of major search engines for publicly accessible sites.
-   - The Internet Archive's 'Wayback Machine' archives websites over time. It allows you to view snapshots of a website from various points in the past, offering a rich source of historical information. 
+   - The Internet Archive's 'Wayback Machine' archives websites over time. It allows you to view snapshots of a website from various points in the past, offering a rich source of historical information.
+   - Google Dorking - try leveraging the “filetype” and “site” operators to find things like “/sitemap.xml” or “/robots.txt” on websites (https://www.exploit-db.com/google-hacking-database).
 
 5) Check for differences in content based on user agent (e.g. mobile sites, accessing as a search engine crawler).
 
 6) Check webpage comments and metadata for information leakage.
 
 #### Development Review
+
+1) Check the web application framework
+
+2) Perform web application fingerprinting
+
+3) Identify technologies used
+
+4) Identify user roles
+
+5) Identify application entry points
+
+6) Identify client-side code
+
+7) Identify multiple versions/channels (e.g. web, mobile web, mobile app)

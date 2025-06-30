@@ -44,14 +44,14 @@
 
 2) Perform web application fingerprinting
 
-There are several common locations to consider in order to identify frameworks or components:
+   - There are several common locations to consider in order to identify frameworks or components:
 
-   - HTTP headers: 'X-Powered-By' field in the HTTP response header
-   - Cookies: Framework-specific cookies. e.g. Cookie: CAKEPHP = rm72......
-   - HTML source code: Certain framework-specific paths can be found, i.e. links to framework-specific CSS or JS folders
-   - Specific files and folders: dirbusting with Burp, checking robots.txt
-   - File extensions: URLs may include file extensions like .php, .aspx, .jsp
-   - Error messages: e.g. syntax error, unexpected end of file in /home/johnsmith/example.com/........
+      - HTTP headers: 'X-Powered-By' field in the HTTP response header
+      - Cookies: Framework-specific cookies. e.g. Cookie: CAKEPHP = rm72......
+      - HTML source code: Certain framework-specific paths can be found, i.e. links to framework-specific CSS or JS folders
+      - Specific files and folders: dirbusting with Burp, checking robots.txt
+      - File extensions: URLs may include file extensions like .php, .aspx, .jsp
+      - Error messages: e.g. syntax error, unexpected end of file in /home/johnsmith/example.com/........
      
 (https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/01-Information_Gathering/08-Fingerprint_Web_Application_Framework)
      

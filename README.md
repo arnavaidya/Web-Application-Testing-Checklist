@@ -185,3 +185,31 @@
            </script>
 
      OWASP documentation - [Leaked API keys guide](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/01-Information_Gathering/05-Review_Web_Page_Content_for_Information_Leakage)
+
+### 3] Secure Transmission:
+
+#### Protocols and Encryption
+
+1) Check SSL version, algorithms, and key length
+
+2) Check for digital certificate validity (duration, signature, and CN)
+
+3) Check that credentials are only delivered over HTTPS
+
+4) Check that the login form is delivered over HTTPS
+
+5) Check that session tokens are only delivered over HTTPS
+
+6) Check if HTTP Strict Transport Security (HSTS) in use
+
+7) Test ability to forge requests
+
+8) Test web messaging (HTML5)
+
+9) Check CORS implementation (HTML5)
+
+#### Web Services and REST
+
+1) Test for web service issues
+
+2) Test REST

@@ -36,8 +36,8 @@
 
 1) Check the web application framework
    - whatweb
-           whatweb https://www.example.com       #Basic scan
-           whatweb -v https://www.example.com    #Verbose
+              whatweb https://www.example.com       #Basic scan
+              whatweb -v https://www.example.com    #Verbose
    - Wappalyzer
 
 3) Perform web application fingerprinting

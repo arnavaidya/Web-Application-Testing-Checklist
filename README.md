@@ -128,6 +128,25 @@
    (https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/04-Review_Old_Backup_and_Unreferenced_Files_for_Sensitive_Information)
 
 4) Check HTTP methods supported and Cross Site Tracing (XST)
+   - Approaches:
+
+           #Get supported HTTP methods
+           $ nc www.victim.com 80
+            OPTIONS / HTTP/1.1
+            Host: www.victim.com
+
+            HTTP/1.1 200 OK
+            Server: Microsoft-IIS/5.0
+            Date: Tue, 31 Oct 2006 08:00:29 GMT
+            Connection: close
+            Allow: GET, HEAD, POST, TRACE, OPTIONS
+            Content-Length: 0
+
+                                OR
+     
+           nmap -p 443 --script http-methods www.victim.com
+
+   (https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/06-Test_HTTP_Methods#:~:text=Test%20XST%20Potential%20*%20Leveraging%20another%20server%2Dside,that%20the%20attacker%20is%20trying%20to%20steal.)
 
 5) Test file extensions handling
 

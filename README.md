@@ -58,7 +58,7 @@
      
 3) Identify technologies used
 
-4) Identify user roles (admin, user,....)
+4) Identify user roles (admin, user, ....)
 
 5) Identify application entry points
 
@@ -121,15 +121,20 @@
    (https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/05-Enumerate_Infrastructure_and_Application_Admin_Interfaces)
 
 2) Check for old, backup, and unreferenced files
+   - Unreferenced or forgotten files. e.g. viewdoc.old.jsp, myservlets.jar.old, login.asp.old, .....
+   - Google Hacking/Docking
+   - /robots.txt
 
-3) Check HTTP methods supported and Cross Site Tracing (XST)
+   (https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/04-Review_Old_Backup_and_Unreferenced_Files_for_Sensitive_Information)
 
-4) Test file extensions handling
+4) Check HTTP methods supported and Cross Site Tracing (XST)
 
-5) Test RIA cross domain policy
+5) Test file extensions handling
 
-6) Test for security HTTP headers (e.g. CSP, X-Frame-Options, HSTS)
+6) Test RIA cross domain policy
 
-7) Test for policies (e.g. Flash, Silverlight, robots)
+7) Test for security HTTP headers (e.g. CSP, X-Frame-Options, HSTS)
 
-8) Check for sensitive data in client-side code (e.g. API keys, credentials)
+8) Test for policies (e.g. Flash, Silverlight, robots)
+
+9) Check for sensitive data in client-side code (e.g. API keys, credentials)

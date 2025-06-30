@@ -88,7 +88,27 @@
       - JavaScript source inspection (DevTools → Sources tab)
 
 2) Identify co-hosted and related applications
- 
+   - Discover other web apps/services hosted on the same server or network.
+     - nmap -sV, whatweb to detect services on neighboring IPs.
+     - Amass or Sublist3r to enumerate related subdomains.
+
 3) Identify all hostnames and ports
- 
-4) Identify third-party hosted content
+   - Enumerate all domain names (subdomains) and ports (services) used by the app.
+      - Amass
+      - Sublist3r
+      - Assetfinder
+      - nmap, masscan
+   
+        #Run subdomain enumeration
+        amass enum -d example.com
+        #OR
+        sublist3r -d example.com
+
+        #Scan for open ports on discovered hostnames
+        nmap -Pn -p- -T4 sub.example.com
+
+5) Identify third-party hosted content
+   - Detect scripts, media, or services hosted on external domains. e.g. cdn.jsdelivr.net, fonts.googleapis.com, api.stripe.com, etc.
+      - BuiltWith, Wappalyzer
+      - Burp Suite / ZAP (Inspect requests)
+      - DevTools → Network tab

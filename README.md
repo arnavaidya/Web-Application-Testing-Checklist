@@ -41,6 +41,7 @@
                  whatweb -v https://www.example.com    #Verbose
      
    - Wappalyzer (Online tool)
+   - BuiltWith (Online tool)
 
 2) Perform web application fingerprinting
 

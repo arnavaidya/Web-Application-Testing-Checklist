@@ -112,3 +112,23 @@
       - BuiltWith, Wappalyzer
       - Burp Suite / ZAP (Inspect requests)
       - DevTools → Network tab
+
+### 2] Configuration Management:
+
+1) Check for commonly used application and administrative URLs
+   - Examples include /admin, /login, /console, /manager, /administrator, /dashboard, and /backend
+   (https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/05-Enumerate_Infrastructure_and_Application_Admin_Interfaces)
+
+2) Check for old, backup, and unreferenced files
+
+3) Check HTTP methods supported and Cross Site Tracing (XST)
+
+4) Test file extensions handling
+
+5) Test RIA cross domain policy
+
+6) Test for security HTTP headers (e.g. CSP, X-Frame-Options, HSTS)
+
+7) Test for policies (e.g. Flash, Silverlight, robots)
+
+8) Check for sensitive data in client-side code (e.g. API keys, credentials)

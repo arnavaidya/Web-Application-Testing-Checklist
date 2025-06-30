@@ -52,6 +52,7 @@ There are several common locations to consider in order to identify frameworks o
    - Specific files and folders: dirbusting with Burp, checking robots.txt
    - File extensions: URLs may include file extensions like .php, .aspx, .jsp
    - Error messages: e.g. syntax error, unexpected end of file in /home/johnsmith/example.com/........
+     
 (https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/01-Information_Gathering/08-Fingerprint_Web_Application_Framework)
      
 3) Identify technologies used

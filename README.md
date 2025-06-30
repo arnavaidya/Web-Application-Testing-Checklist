@@ -54,7 +54,7 @@
       - File extensions: URLs may include file extensions like .php, .aspx, .jsp
       - Error messages: e.g. syntax error, unexpected end of file in /home/johnsmith/example.com/........
      
-   [Web Application fingerprinting guide](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/01-Information_Gathering/08-Fingerprint_Web_Application_Framework)
+      [Web Application fingerprinting guide](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/01-Information_Gathering/08-Fingerprint_Web_Application_Framework)
      
 3) Identify technologies used
 

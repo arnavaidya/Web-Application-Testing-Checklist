@@ -176,7 +176,7 @@
 
 10) Check for sensitive data in client-side code (e.g. API keys, credentials)
 
-   - Sample finding: 
+      - Sample finding: 
 
            <script type="application/json">
              ...

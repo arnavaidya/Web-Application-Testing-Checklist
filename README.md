@@ -36,18 +36,20 @@
 
 1) Check the web application framework
    - whatweb
-              whatweb https://www.example.com       #Basic scan
-              whatweb -v https://www.example.com    #Verbose
+     
+                 whatweb https://www.example.com       #Basic scan
+                 whatweb -v https://www.example.com    #Verbose
+     
    - Wappalyzer
 
-3) Perform web application fingerprinting
+2) Perform web application fingerprinting
 
-4) Identify technologies used
+3) Identify technologies used
 
-5) Identify user roles
+4) Identify user roles
 
-6) Identify application entry points
+5) Identify application entry points
 
-7) Identify client-side code
+6) Identify client-side code
 
-8) Identify multiple versions/channels (e.g. web, mobile web, mobile app)
+7) Identify multiple versions/channels (e.g. web, mobile web, mobile app)

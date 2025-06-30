@@ -99,13 +99,13 @@
       - Assetfinder
       - nmap, masscan
    
-           #Run subdomain enumeration
-           amass enum -d example.com
-           #OR
-           sublist3r -d example.com
+              #Run subdomain enumeration
+              amass enum -d example.com
+              #OR
+              sublist3r -d example.com
 
-           #Scan for open ports on discovered hostnames
-           nmap -Pn -p- -T4 sub.example.com
+              #Scan for open ports on discovered hostnames
+              nmap -Pn -p- -T4 sub.example.com
 
 5) Identify third-party hosted content
    - Detect scripts, media, or services hosted on external domains. e.g. cdn.jsdelivr.net, fonts.googleapis.com, api.stripe.com, etc.

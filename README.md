@@ -117,6 +117,7 @@
 
 1) Check for commonly used application and administrative URLs
    - Examples include /admin, /login, /console, /manager, /administrator, /dashboard, and /backend
+     
    (https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/05-Enumerate_Infrastructure_and_Application_Admin_Interfaces)
 
 2) Check for old, backup, and unreferenced files

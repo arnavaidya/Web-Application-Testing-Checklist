@@ -159,7 +159,7 @@
    OWASP documentation - [File Extension testing guide](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/03-Test_File_Extensions_Handling_for_Sensitive_Information)
 
 6) Test RIA cross domain policy
-   - Example, if the application’s URL is http://www.owasp.org, try to download the files http://www.owasp.org/crossdomain.xml and http://www.owasp.org/clientaccesspolicy.xml.
+   - Example, if the application’s URL is 'http://www.owasp.org', try to download the files 'http://www.owasp.org/crossdomain.xml' and 'http://www.owasp.org/clientaccesspolicy.xml'.
      
    OWASP documentation - [RIA cross-domain policy guide](https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/08-Test_RIA_Cross_Domain_Policy)
 

@@ -175,3 +175,13 @@
 9) Test for policies (e.g. Flash, Silverlight, robots)
 
 10) Check for sensitive data in client-side code (e.g. API keys, credentials)
+
+   - Sample finding: 
+
+           <script type="application/json">
+             ...
+             {"GOOGLE_MAP_API_KEY":"AIzaSyDUEBnKgwiqMNpDplT6ozE4Z0XxuAbqDi4", "RECAPTCHA_KEY":"6LcPscEUiAAAAHOwwM3fGvIx9rsPYUq62uRhGjJ0"}
+             ...
+           </script>
+
+     OWASP documentation - [Leaked API keys guide](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/01-Information_Gathering/05-Review_Web_Page_Content_for_Information_Leakage)

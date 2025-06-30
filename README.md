@@ -77,3 +77,18 @@
       (https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/11-Client-side_Testing/06-Testing_for_Client-side_Resource_Manipulation)
 
 7) Identify multiple versions/channels (e.g. web, mobile web, mobile app)
+
+#### Hosting and Platform Review
+
+1) Identify web services
+   - Discover APIs, REST/SOAP endpoints, or other web-accessible services.
+      - Burp Suite (Proxy, Logger, Repeater, Extensions)
+      - OWASP ZAP
+      - Postman / curl (for manual requests)
+      - JavaScript source inspection (DevTools → Sources tab)
+
+2) Identify co-hosted and related applications
+ 
+3) Identify all hostnames and ports
+ 
+4) Identify third-party hosted content

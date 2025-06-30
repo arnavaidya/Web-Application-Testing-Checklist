@@ -62,6 +62,16 @@
 
 5) Identify application entry points
 
+      - Example shows a GET request that would purchase an item from an online shopping application.
+
+             GET https://x.x.x.x/shoppingApp/buyme.asp?CUSTOMERID=100&ITEM=z101a&PRICE=62.50&IP=x.x.x.x
+             Host: x.x.x.x
+             Cookie: SESSIONID=Z29vZCBqb2IgcGFkYXdhIG15IHVzZXJuYW1lIGlzIGZvbyBhbmQgcGFzc3dvcmQgaXMgYmFy
+
+      - Result Expected: Here the tester would note all the parameters of the request such as CUSTOMERID, ITEM, PRICE, IP, and the Cookie (which could just be encoded parameters or used for session state).
+
+(https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/01-Information_Gathering/06-Identify_Application_Entry_Points)
+
 6) Identify client-side code
 
 7) Identify multiple versions/channels (e.g. web, mobile web, mobile app)

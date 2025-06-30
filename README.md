@@ -151,6 +151,10 @@
    OWASP documentation - [HTTP methods guide](https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/06-Test_HTTP_Methods#:~:text=Test%20XST%20Potential%20*%20Leveraging%20another%20server%2Dside,that%20the%20attacker%20is%20trying%20to%20steal.)
 
 5) Test file extensions handling
+   - .asa, .inc, .config are files commonly containing sensitive information.
+   - Tools like Nessus, Nikto check for the existence of well-known web directories.
+   - wget
+   - curl
 
    OWASP documentation - [File Extension testing guide](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/03-Test_File_Extensions_Handling_for_Sensitive_Information)
 

@@ -25,6 +25,7 @@
                  dirsearch -u http://testphp.vulnweb.com
 
 4) Check the caches of major search engines for publicly accessible sites.
+   - The Internet Archive's Wayback Machine archives websites over time. It allows you to view snapshots of a website from various points in the past, offering a rich source of historical information. 
 
 5) Check for differences in content based on user agent (e.g. mobile sites, accessing as a search engine crawler).
 

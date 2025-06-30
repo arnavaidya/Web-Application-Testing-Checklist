@@ -130,7 +130,8 @@
 4) Check HTTP methods supported and Cross Site Tracing (XST)
    - Approaches:
 
-           #Get supported HTTP methods
+           #Approach 1:
+           #Get supported HTTP methods           
            $ nc www.victim.com 80
             OPTIONS / HTTP/1.1
             Host: www.victim.com
@@ -143,7 +144,8 @@
             Content-Length: 0
 
                                 OR
-     
+
+           #Approach 2:
            nmap -p 443 --script http-methods www.victim.com
 
    (https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/06-Test_HTTP_Methods#:~:text=Test%20XST%20Potential%20*%20Leveraging%20another%20server%2Dside,that%20the%20attacker%20is%20trying%20to%20steal.)

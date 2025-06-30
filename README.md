@@ -57,7 +57,7 @@ There are several common locations to consider in order to identify frameworks o
      
 3) Identify technologies used
 
-4) Identify user roles
+4) Identify user roles (admin, user,....)
 
 5) Identify application entry points
 

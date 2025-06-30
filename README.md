@@ -213,3 +213,241 @@
 1) Test for web service issues
 
 2) Test REST
+
+### 4] Authentication:
+
+#### Application Password Functionality
+
+1) Test password quality rules
+
+2) Test remember me functionality
+
+3) Test password reset and/or recovery
+
+4) Test password change process
+
+5) Test CAPTCHA
+
+6) Test multi-factor authentication
+
+7) Test for logout functionality presence
+
+8) Test for default logins
+
+9) Test for out-of-channel notification of account lockouts and successful password changes
+
+10) Test for consistent authentication across applications with shared authentication schema/SSO and alternative channels
+
+11) Test for weak security question/answer
+
+#### Additional Authentication Functionality
+
+1) Test for user enumeration
+
+2) Test for authentication bypass
+
+3) Test for brute force protection
+
+4) Test for credentials transported over an encrypted channel
+
+5) Test for cache management on HTTP (eg Pragma, Expires, Max-age)
+
+6) Test for user-accessible authentication history
+
+### 5] Authorization
+
+1) Test for path traversal
+
+2) Test for vertical access control problems (a.k.a. privilege escalation)
+
+3) Test for horizontal access control problems (between two users at the same privilege level)
+
+4) Test for missing authorization
+
+5) Test for insecure direct object references
+
+### 6] Session Management
+
+1) Establish how session management is handled in the application (e.g., tokens in cookies, token in URL)
+
+2) Check session tokens for cookie flags (HttpOnly and Secure)
+
+3) Check session cookie scope (Path and Domain)
+
+4) Check session cookie duration (Expires and Max-Age)
+
+5) Check session termination after a maximum lifetime
+
+6) Check session termination after a relative timeout
+
+7) Check session termination after logout
+
+8) Test to see if users can have multiple simultaneous sessions
+
+9) Test session cookies for randomness
+
+10) Confirm that new session tokens are issued on login, role change, and logout
+
+11) Test for consistent session management across applications with shared session management
+
+12) Test for session puzzling
+
+13) Test for CSRF and clickjacking
+
+### 7] Data Validation Testing
+
+#### Injection
+
+1) Test for HTML Injection  
+
+2) Test for SQL Injection  
+
+3) Test for LDAP Injection  
+
+4) Test for ORM Injection  
+
+5) Test for XML Injection  
+
+6) Test for XXE Injection  
+
+7) Test for SSI Injection  
+
+8) Test for XPath Injection  
+
+9) Test for XQuery Injection  
+
+10) Test for IMAP/SMTP Injection  
+
+11) Test for Code Injection  
+
+12) Test for Expression Language Injection  
+
+13) Test for Command Injection  
+
+14) Test for NoSQL Injection
+
+#### Other
+
+1) Test for Reflected Cross Site Scripting  
+
+2) Test for Race Condition  
+
+3) Test for Stored Cross Site Scripting  
+
+4) Test for DOM Based Cross Site Scripting  
+
+5) Test for Cross Site Flashing  
+
+6) Test for Overflow (Stack, Heap, and Integer)  
+
+7) Test for Format String  
+
+8) Test for Incubated Vulnerabilities  
+
+9) Test for HTTP Splitting/Smuggling  
+
+10) Test for HTTP Verb Tampering  
+
+11) Test for Open Redirection  
+
+12) Test for Local File Inclusion  
+
+13) Test for Remote File Inclusion  
+
+14) Compare Client-side and Server-side Validation Rules  
+
+15) Test for HTTP Parameter Pollution  
+
+16) Test for Auto-binding  
+
+17) Test for Mass Assignment  
+
+18) Test for NULL/Invalid Session Cookie  
+
+19) Test for Integrity of Data  
+
+20) Test for the Circumvention of Workflows  
+
+21) Test Defenses Against Application Misuse  
+
+22) Test That a Function or Feature Cannot Be Used Outside Of Limits  
+
+23) Test for Process Timing  
+
+24) Test for Web Storage SQL Injection (HTML5)  
+
+25) Check Offline Web Application  
+
+### 8] Error Handling
+
+1) Analysis of Error Codes
+
+2) Analysis of Stack Traces
+
+### 9] Cryptography
+
+1) Check if data which should be encrypted is not
+
+2) Check for wrong algorithms usage depending on context
+
+3) Check for weak algorithms usage
+
+4) Check for proper use of salting
+
+5) Check for randomness functions
+
+### 10] Denial of Service
+
+1) Test for anti-automation
+
+2) Test for account lockout
+
+3) Test for HTTP protocol DoS
+
+4) Test for SQL wildcard DoS
+
+### 11] Specific Risky Functionality
+
+#### File Uploads
+
+1) Test that acceptable file types are whitelisted and non-whitelisted types are rejected  
+
+2) Test that file size limits, upload frequency, and total file counts are defined and are enforced  
+
+3) Test that file contents match the defined file type  
+
+4) Test that all file uploads have anti-virus scanning in place  
+
+5) Test upload of malicious files  
+
+6) Test that unsafe filenames are sanitized  
+
+7) Test that uploaded files are not directly accessible within the web root  
+
+8) Test that uploaded files are not served on the same hostname/port  
+
+9) Test that files and other media are integrated with the authentication and authorization schemas  
+
+#### Payments
+
+1) Test for Known Vulnerabilities and Configuration Issues on Web Server and Web Application  
+
+2) Test for Default or Guessable Password  
+
+3) Test for Injection Vulnerabilities  
+
+4) Test for Buffer Overflows  
+
+5) Test for Insecure Cryptographic Storage  
+
+6) Test for Insufficient Transport Layer Protection  
+
+7) Test for Improper Error Handling  
+
+8) Test for Server Side JavaScript Injection  
+
+9) Test for All Vulnerabilities with a CVSS v2 Score > 4.0  
+
+10) Test for Authentication and Authorization Issues  
+
+11) Test for CSRF

@@ -15,12 +15,12 @@
 3) Check the webserver metafiles for information leakage files that expose content, such as robots.txt, sitemap.xml, and .DS_Store.
    - Use dirbuster and/or dirsearch for enumeration.
 
-      - dirb
+      - dirb (Kali tool)
         
                  dirb http://testphp.vulnweb.com/   #Run with default wordlist
                  dirb http://example.com /usr/share/wordlists/dirb/big.txt  #Run with custom wordlist 'big.txt'
 
-      - dirsearch
+      - dirsearch (Kali tool)
         
                  dirsearch -u http://testphp.vulnweb.com
 
@@ -35,12 +35,12 @@
 #### Development Review
 
 1) Check the web application framework
-   - whatweb
+   - whatweb (Kali tool)
      
                  whatweb https://www.example.com       #Basic scan
                  whatweb -v https://www.example.com    #Verbose
      
-   - Wappalyzer
+   - Wappalyzer (Online tool)
 
 2) Perform web application fingerprinting
 

@@ -54,7 +54,7 @@
       - File extensions: URLs may include file extensions like .php, .aspx, .jsp
       - Error messages: e.g. syntax error, unexpected end of file in /home/johnsmith/example.com/........
      
-   OWASP documentation - [Web Application fingerprinting guide](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/01-Information_Gathering/08-Fingerprint_Web_Application_Framework)
+   OWASP documentation - [Web Application Fingerprinting guide](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/01-Information_Gathering/08-Fingerprint_Web_Application_Framework)
      
 3) Identify technologies used
 
@@ -70,7 +70,7 @@
 
       - Result Expected: Here the tester would note all the parameters of the request such as CUSTOMERID, ITEM, PRICE, IP, and the Cookie (which could just be encoded parameters or used for session state).
 
-   (https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/01-Information_Gathering/06-Identify_Application_Entry_Points)
+   OWASP documentation - [Application entry points identification guide](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/01-Information_Gathering/06-Identify_Application_Entry_Points)
 
 6) Identify client-side code
 
@@ -118,14 +118,14 @@
 1) Check for commonly used application and administrative URLs
    - Examples include /admin, /login, /console, /manager, /administrator, /dashboard, and /backend
      
-   (https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/05-Enumerate_Infrastructure_and_Application_Admin_Interfaces)
+   OWASP documentation - [Common administrative URLs guide](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/05-Enumerate_Infrastructure_and_Application_Admin_Interfaces)
 
 2) Check for old, backup, and unreferenced files
    - Unreferenced or forgotten files. e.g. viewdoc.old.jsp, myservlets.jar.old, login.asp.old, .....
    - Google Hacking/Docking
    - /robots.txt
 
-   (https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/04-Review_Old_Backup_and_Unreferenced_Files_for_Sensitive_Information)
+   OWASP documentation - [Old, unreferenced files guide](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/04-Review_Old_Backup_and_Unreferenced_Files_for_Sensitive_Information)
 
 4) Check HTTP methods supported and Cross Site Tracing (XST)
    - Approaches:
@@ -148,7 +148,7 @@
            #Approach 2:
            nmap -p 443 --script http-methods www.victim.com
 
-   (https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/06-Test_HTTP_Methods#:~:text=Test%20XST%20Potential%20*%20Leveraging%20another%20server%2Dside,that%20the%20attacker%20is%20trying%20to%20steal.)
+   OWASP documentation - [HTTP methods guide](https://owasp.org/www-project-web-security-testing-guide/v41/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/06-Test_HTTP_Methods#:~:text=Test%20XST%20Potential%20*%20Leveraging%20another%20server%2Dside,that%20the%20attacker%20is%20trying%20to%20steal.)
 
 5) Test file extensions handling
 

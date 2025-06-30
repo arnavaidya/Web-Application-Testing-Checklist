@@ -169,8 +169,9 @@
    - https://securityheaders.com/ (Online tool)
 
    OWASP Cheatsheet - [HTTP Headers cheatsheet](https://cheatsheetseries.owasp.org/cheatsheets/HTTP_Headers_Cheat_Sheet.html)
+   
    OWASP documentation - [HTTP Headers testing guide](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/14-Test_Other_HTTP_Security_Header_Misconfigurations)
 
-8) Test for policies (e.g. Flash, Silverlight, robots)
+9) Test for policies (e.g. Flash, Silverlight, robots)
 
-9) Check for sensitive data in client-side code (e.g. API keys, credentials)
+10) Check for sensitive data in client-side code (e.g. API keys, credentials)

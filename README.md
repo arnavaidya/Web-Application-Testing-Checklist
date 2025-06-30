@@ -35,15 +35,19 @@
 #### Development Review
 
 1) Check the web application framework
+   - whatweb
+           whatweb https://www.example.com       #Basic scan
+           whatweb -v https://www.example.com    #Verbose
+   - Wappalyzer
 
-2) Perform web application fingerprinting
+3) Perform web application fingerprinting
 
-3) Identify technologies used
+4) Identify technologies used
 
-4) Identify user roles
+5) Identify user roles
 
-5) Identify application entry points
+6) Identify application entry points
 
-6) Identify client-side code
+7) Identify client-side code
 
-7) Identify multiple versions/channels (e.g. web, mobile web, mobile app)
+8) Identify multiple versions/channels (e.g. web, mobile web, mobile app)

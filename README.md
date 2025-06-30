@@ -152,6 +152,8 @@
 
 5) Test file extensions handling
 
+   OWASP documentation - [File Extension testing guide](https://owasp.org/www-project-web-security-testing-guide/latest/4-Web_Application_Security_Testing/02-Configuration_and_Deployment_Management_Testing/03-Test_File_Extensions_Handling_for_Sensitive_Information)
+
 6) Test RIA cross domain policy
 
 7) Test for security HTTP headers (e.g. CSP, X-Frame-Options, HSTS)

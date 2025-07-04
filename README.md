@@ -192,6 +192,11 @@
 
 1) Check SSL version, algorithms, and key length
 
+   - Use nmap --script command for ssl scans.
+  
+           nmap --script ssl-cert example.com         #Gives issuer, key type, key length, algo, validity,.....
+           nmap --script ssl-enum-ciphers example.com   #Gives protocol supported, cipher suites, cipher strength,..... 
+
 2) Check for digital certificate validity (duration, signature, and CN)
 
 3) Check that credentials are only delivered over HTTPS

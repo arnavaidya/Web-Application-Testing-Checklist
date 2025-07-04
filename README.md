@@ -203,7 +203,7 @@
 
 3) Check that credentials are only delivered over HTTPS
 
-   - Check thst the login page only loads over 'https' and not 'http'.
+   - Check that the login page only loads over 'https' and not 'http'.
 
 4) Check that the login form is delivered over HTTPS
 
@@ -214,6 +214,8 @@
    - In DevTools under Response Headers, look for: Strict-Transport-Security: ...
 
 7) Test ability to forge requests
+
+   - Check for CSRF
 
 8) Test web messaging (HTML5)
 

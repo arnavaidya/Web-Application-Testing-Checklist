@@ -211,6 +211,8 @@
 
 6) Check if HTTP Strict Transport Security (HSTS) in use
 
+   - In DevTools under Response Headers, look for: Strict-Transport-Security: ...
+
 7) Test ability to forge requests
 
 8) Test web messaging (HTML5)

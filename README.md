@@ -199,6 +199,8 @@
 
 2) Check for digital certificate validity (duration, signature, and CN)
 
+         openssl s_client -connect <target>:443 -servername <target> | openssl x509 -noout -text
+
 3) Check that credentials are only delivered over HTTPS
 
 4) Check that the login form is delivered over HTTPS

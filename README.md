@@ -203,6 +203,8 @@
 
 3) Check that credentials are only delivered over HTTPS
 
+   - Check thst the login page only loads over 'https' and not 'http'.
+
 4) Check that the login form is delivered over HTTPS
 
 5) Check that session tokens are only delivered over HTTPS
